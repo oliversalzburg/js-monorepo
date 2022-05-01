@@ -3,6 +3,7 @@
 
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
+  workspaceRoot: "../..",
   mount: {
     source: "/output",
     public: "/",
