@@ -32,4 +32,5 @@ jobs:
       - name: Lint TSC
         run: yarn lint:tsc
       - name: Build
-        run: yarn build
+        run: |
+          - yarn workspace web-project build
