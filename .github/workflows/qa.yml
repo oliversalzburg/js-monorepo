@@ -38,4 +38,5 @@ jobs:
       # Build
       - name: Build
         run: |
+          yarn workspace js-lib build
           yarn workspace web-project build
