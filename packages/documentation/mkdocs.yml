@@ -26,7 +26,8 @@ markdown_extensions:
   - toc:
       permalink: true
 plugins:
-  - git-revision-date-localized
+  - git-revision-date-localized:
+      fallback_to_build_date: true
   - search
 repo_name: oliversalzburg/yarn3-monorepo
 repo_url: https://github.com/oliversalzburg/yarn3-monorepo
