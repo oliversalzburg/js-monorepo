@@ -27,16 +27,18 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      # QA
+      # Pre-build QA
       - name: Check constraints
         run: yarn constraints
-      - name: Lint ESLint
-        run: yarn lint:eslint
-      - name: Lint TSC
-        run: yarn lint:tsc
 
       # Build
       - name: Build
         run: |
           yarn workspace js-lib build
           yarn workspace web-project build
+
+      # Post-build QA
+      - name: Lint ESLint
+        run: yarn lint:eslint
+      - name: Lint TSC
+        run: yarn lint:tsc
