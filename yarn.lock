@@ -2852,6 +2852,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"js-lib-fab043@workspace:packages/js-lib":
+  version: 0.0.0-use.local
+  resolution: "js-lib-fab043@workspace:packages/js-lib"
+  languageName: unknown
+  linkType: soft
+
 "js-tokens@npm:^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -5255,6 +5261,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"web-project@workspace:packages/web-project":
+  version: 0.0.0-use.local
+  resolution: "web-project@workspace:packages/web-project"
+  dependencies:
+    "@types/web": 0.0.61
+    snowpack: 3.8.8
+    typescript: 4.6.3
+  languageName: unknown
+  linkType: soft
+
 "which@npm:^2.0.1, which@npm:^2.0.2":
   version: 2.0.2
   resolution: "which@npm:2.0.2"
@@ -5374,7 +5390,6 @@ __metadata:
     prettier-package-json: 2.6.3
     prettier-plugin-organize-imports: 2.3.4
     prettier-plugin-sh: 0.10.1
-    snowpack: 3.8.8
     typescript: 4.6.3
   languageName: unknown
   linkType: soft

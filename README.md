@@ -5,13 +5,10 @@ _work in progress_
 ## Does
 
 -   [Yarn 3](https://yarnpkg.com/)
--   Uses [TypeScript](https://www.typescriptlang.org/)
--   Target application runs in the browser
--   [Snowpack](https://www.snowpack.dev/) (uses [esbuild](https://esbuild.github.io/))
+-   [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) documentation website with [node-scripts-docs](https://oliversalzburg.github.io/node-scripts-docs/), auto-deployed to GitHub Pages
 -   [EditorConfig](https://editorconfig.org/) + [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) + [lint-staged](https://github.com/okonet/lint-staged)
 -   QA with [GitHub Actions](https://github.com/features/actions)
 -   [Renovate](https://github.com/renovatebot/renovate) (auto-merge `@types`, no dashboard)
--   [MkDocs](https://www.mkdocs.org/)-oriented Markdown in mind
 
 ## Doesn't
 
@@ -26,17 +23,9 @@ _work in progress_
 
     Among other things, Yarn is robust, performant and extremely versatile when it comes to repository management. The given configuration provides a very solid first-time experience. Some of the things that make modern Yarn great can be seen in this project template.
 
-1.  Why Snowpack?
-
-    It uses esbuild and it just works.
-
 1.  Why Renovate?
 
     Dependabot doesn't play nice with Yarn sometimes. We don't like Dependabot, we like Renovate.
-
-1.  Why the MkDocs Markdown?
-
-    If you're going to want to build any documentation site, you will appreciate having auto-formatted to this style from the start. Using mkdocs-material for documentation sites is highly recommended. The Python Markdown ecosystem is much more versatile and performant than the JS/TS space.
 
 1.  Why is PnP disabled?
 
