@@ -38,4 +38,4 @@ jobs:
       # Build
       - name: Build
         run: |
-          - yarn workspace web-project build
+          yarn workspace web-project build
