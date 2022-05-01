@@ -2852,9 +2852,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-lib-fab043@workspace:packages/js-lib":
+"js-lib@workspace:*, js-lib@workspace:packages/js-lib":
   version: 0.0.0-use.local
-  resolution: "js-lib-fab043@workspace:packages/js-lib"
+  resolution: "js-lib@workspace:packages/js-lib"
+  dependencies:
+    tslib: 2.4.0
+    typescript: 4.6.3
   languageName: unknown
   linkType: soft
 
@@ -5266,6 +5269,7 @@ __metadata:
   resolution: "web-project@workspace:packages/web-project"
   dependencies:
     "@types/web": 0.0.61
+    js-lib: "workspace:*"
     snowpack: 3.8.8
     tslib: 2.4.0
     typescript: 4.6.3

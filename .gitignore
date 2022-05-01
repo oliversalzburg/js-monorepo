@@ -6,6 +6,4 @@
 !.yarn/versions
 .pnp.*
 
-build
 node_modules
-output
