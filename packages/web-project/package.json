@@ -6,7 +6,8 @@
   "scripts": {
     "build": "vite build",
     "lint": "eslint source && tsc --noEmit",
-    "serve": "vite serve"
+    "serve": "vite serve",
+    "preview": "vite preview"
   },
   "dependencies": {
     "js-lib": "workspace:*"
