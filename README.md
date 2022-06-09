@@ -9,7 +9,6 @@ _work in progress_
 -   [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) documentation website with [node-scripts-docs](https://oliversalzburg.github.io/node-scripts-docs/), auto-deployed to GitHub Pages
 -   [EditorConfig](https://editorconfig.org/) + [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) + [lint-staged](https://github.com/okonet/lint-staged)
 -   QA with [GitHub Actions](https://github.com/features/actions)
--   [Renovate](https://github.com/renovatebot/renovate) (auto-merge `@types`, no dashboard)
 
 ## Doesn't
 
@@ -23,10 +22,6 @@ _work in progress_
 1.  Why modern Yarn?
 
     Among other things, Yarn is robust, performant and extremely versatile when it comes to repository management. The given configuration provides a very solid first-time experience. Some of the things that make modern Yarn great can be seen in this project template.
-
-1.  Why Renovate?
-
-    Dependabot doesn't play nice with Yarn sometimes. We don't like Dependabot, we like Renovate.
 
 1.  Why is PnP disabled?
 
