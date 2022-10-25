@@ -166,10 +166,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:17.0.23":
-  version: 17.0.23
-  resolution: "@types/node@npm:17.0.23"
-  checksum: 5c70285a5454aa1daa1f515c1b6df8ccdc85ba18c19d650355f32ac00f82494d9b0ec4c6f943bcc4081acc5662aa68ff84f4e91f35f0b23087b3ed4682f73ad4
+"@types/node@npm:18.11.5":
+  version: 18.11.5
+  resolution: "@types/node@npm:18.11.5"
+  checksum: 1c279db0eaebc3ba45a2802bbd7043f6ef84bda199adc26ff1321cb5cc3e6870278b4dc4c2a2736055f68193c2359063117be6e28ef0c169d3e7c8d2d8b3e753
   languageName: node
   linkType: hard
 
@@ -2350,7 +2350,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "node-project@workspace:packages/node-project"
   dependencies:
-    "@types/node": 17.0.23
+    "@types/node": 18.11.5
     esbuild: 0.14.31
     js-lib: "workspace:*"
     tslib: 2.4.0
