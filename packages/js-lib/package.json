@@ -10,7 +10,7 @@
   },
   "types": "typings/index.d.ts",
   "devDependencies": {
-    "tslib": "2.4.0",
+    "tslib": "2.4.1",
     "typescript": "4.6.3"
   }
 }
