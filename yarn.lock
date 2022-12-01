@@ -128,17 +128,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pkgr/utils@npm:^2.0.3":
-  version: 2.1.0
-  resolution: "@pkgr/utils@npm:2.1.0"
+"@pkgr/utils@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "@pkgr/utils@npm:2.3.1"
   dependencies:
     cross-spawn: ^7.0.3
     is-glob: ^4.0.3
     open: ^8.4.0
     picocolors: ^1.0.0
     tiny-glob: ^0.2.9
-    tslib: ^2.3.1
-  checksum: 0018be4ace9603acbcb89fa2f05dc574f313ec079f12e1b07e0b8577f75df06dd18370a9502678c6e25b0e6946d558084686de76d4f398ea402da658bfc79c2f
+    tslib: ^2.4.0
+  checksum: 50c2480c3580c0f75b9325271deeb4f4cb24f6a29f1ebc5a7de0c6991380e23625fd554ecdbc7d7e93ad6dab92532a254f7490433cf2b8f1b18d75c9e01636ea
   languageName: node
   linkType: hard
 
@@ -2345,12 +2345,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.3.2":
-  version: 3.3.3
-  resolution: "nanoid@npm:3.3.3"
-  bin:
-    nanoid: bin/nanoid.cjs
-  checksum: d7ab68893cdb92dd2152d505e56571d571c65b71a9815f9dfb3c9a8cbf943fe43c9777d9a95a3b81ef01e442fec8409a84375c08f90a5753610a9f22672d953a
+"mvdan-sh@npm:^0.10.1":
+  version: 0.10.1
+  resolution: "mvdan-sh@npm:0.10.1"
+  checksum: cfdd3c6429aad170014892f7934ff60a4418b32e4c14db10f0d3cfb7743f37385e2a3a8c58c65b7c4fbfe44838d9e8cf8c93897b9763a08224c32957a72621c0
   languageName: node
   linkType: hard
 
@@ -2679,15 +2677,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-sh@npm:0.10.2":
-  version: 0.10.2
-  resolution: "prettier-plugin-sh@npm:0.10.2"
+"prettier-plugin-sh@npm:0.12.8":
+  version: 0.12.8
+  resolution: "prettier-plugin-sh@npm:0.12.8"
   dependencies:
-    sh-syntax: ^0.1.4
-    synckit: ^0.7.0
+    mvdan-sh: ^0.10.1
+    sh-syntax: ^0.3.6
+    synckit: ^0.8.1
   peerDependencies:
     prettier: ^2.0.0
-  checksum: c38e576c93b3ac403aec92061f0dfca33fbfe5fe1a1046e82aaaea0e1efd326d160d3beab1e23b0099485d46bb0c0607f70121ebf3dee411f6b67fed19d72a0c
+  checksum: 7c90a42232f3d74e12936f21241b52e51b22910eb4758fe238e05e075aa2b54df3dcab6349d51c5b2f6c7dbe6aba77532652f0d89ba187206d6ab4d600567915
   languageName: node
   linkType: hard
 
@@ -2899,13 +2898,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sh-syntax@npm:^0.1.4":
-  version: 0.1.4
-  resolution: "sh-syntax@npm:0.1.4"
+"sh-syntax@npm:^0.3.6":
+  version: 0.3.7
+  resolution: "sh-syntax@npm:0.3.7"
   dependencies:
-    nanoid: ^3.3.2
-    tslib: ^2.3.1
-  checksum: 9523b7aa6137281770c6d0a2a4dd9b578f99d4718a5d7195fc2ce027ca51b329903255cc62e23ed4e406698f18b523dd1fd98c5e3cc8372e749d6044d2a8685c
+    tslib: ^2.4.0
+  checksum: 21ccdca2cfb07e779aac5e9e0db45e3d3bbd5968b8950d5f64c7bc327800752e51b5edc6124cf332e5b78ed3f5866dd77f48a780fd6913d1b5acc56a73319c3f
   languageName: node
   linkType: hard
 
@@ -3131,13 +3129,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"synckit@npm:^0.7.0":
-  version: 0.7.0
-  resolution: "synckit@npm:0.7.0"
+"synckit@npm:^0.8.1":
+  version: 0.8.4
+  resolution: "synckit@npm:0.8.4"
   dependencies:
-    "@pkgr/utils": ^2.0.3
-    tslib: ^2.3.1
-  checksum: fc4640607721eb72aa612cdb2ba1a7ba709f486e5d81636b8430c560221c08d9df8e0542b53e719336cc23bba5cb2afc25ec360da3fa78571d0a31ec5bca3e76
+    "@pkgr/utils": ^2.3.1
+    tslib: ^2.4.0
+  checksum: cd2444b7879b010b220721874527dbf3231a05cd42a47b24260db9c9427e9c3d3e481bd41175112434267dec3402166cfde417c4ae254937b5cc3b0cd994b992
   languageName: node
   linkType: hard
 
@@ -3188,14 +3186,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:2.4.0, tslib@npm:^2.3.1":
+"tslib@npm:2.4.0":
   version: 2.4.0
   resolution: "tslib@npm:2.4.0"
   checksum: eb19bda3ae545b03caea6a244b34593468e23d53b26bf8649fbc20fce43e9b21a71127fd6d2b9662c0fe48ee6ff668ead48fd00d3b88b2b716b1c12edae25b5d
   languageName: node
   linkType: hard
 
-"tslib@npm:2.4.1":
+"tslib@npm:2.4.1, tslib@npm:^2.4.0":
   version: 2.4.1
   resolution: "tslib@npm:2.4.1"
   checksum: 9ac0e4fd1033861f0b4f0d848dc3009ebcc3aa4757a06e8602a2d8a7aed252810e3540e54e70709f06c0f95311faa8584f769bcbede48aff785eb7e4d399b9ec
@@ -3436,7 +3434,7 @@ __metadata:
     prettier: 2.6.1
     prettier-package-json: 2.7.0
     prettier-plugin-organize-imports: 3.1.1
-    prettier-plugin-sh: 0.10.2
+    prettier-plugin-sh: 0.12.8
     tslib: 2.4.1
     typescript: 4.8.4
   languageName: unknown
