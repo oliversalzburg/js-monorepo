@@ -20,7 +20,7 @@
     "eslint": "8.26.0",
     "lint-staged": "13.1.0",
     "node-scripts-docs": "0.0.14",
-    "prettier": "2.6.1",
+    "prettier": "2.8.1",
     "prettier-package-json": "2.7.0",
     "prettier-plugin-organize-imports": "3.1.1",
     "prettier-plugin-sh": "0.12.8",
