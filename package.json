@@ -17,7 +17,7 @@
     "@types/web": "0.0.99",
     "@typescript-eslint/eslint-plugin": "5.59.1",
     "@typescript-eslint/parser": "5.42.0",
-    "eslint": "8.37.0",
+    "eslint": "8.41.0",
     "lint-staged": "13.2.0",
     "node-scripts-docs": "0.1.0",
     "prettier": "2.8.3",
