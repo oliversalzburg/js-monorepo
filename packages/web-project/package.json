@@ -13,7 +13,7 @@
     "js-lib": "workspace:*"
   },
   "devDependencies": {
-    "@types/web": "0.0.99",
+    "@types/web": "0.0.107",
     "tslib": "2.5.0",
     "typescript": "5.0.4",
     "vite": "4.3.9"

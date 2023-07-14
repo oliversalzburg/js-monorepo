@@ -534,10 +534,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/web@npm:0.0.99":
-  version: 0.0.99
-  resolution: "@types/web@npm:0.0.99"
-  checksum: f15782bdc24c5d142e94772869ac3dac9d0867d39896dff0731e9be9c56ebf02151076b378f0e702a3e1f7c1281d10d40f08f4ea1d884d0c560ff6ecae44990d
+"@types/web@npm:0.0.107":
+  version: 0.0.107
+  resolution: "@types/web@npm:0.0.107"
+  checksum: caebe4e7a0478e8b79d2681d49490a363aec78826b1bcaf9d367c2898f1239d11399bb7823212be5560e4ab5427ffcf8178d2160b81c7da7bf4450bef9acec16
   languageName: node
   linkType: hard
 
@@ -3368,7 +3368,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web-project@workspace:packages/web-project"
   dependencies:
-    "@types/web": 0.0.99
+    "@types/web": 0.0.107
     js-lib: "workspace:*"
     tslib: 2.5.0
     typescript: 5.0.4
@@ -3458,7 +3458,7 @@ __metadata:
   resolution: "yarn3-monorepo@workspace:."
   dependencies:
     "@types/eslint": 8
-    "@types/web": 0.0.99
+    "@types/web": 0.0.107
     "@typescript-eslint/eslint-plugin": 5.59.9
     "@typescript-eslint/parser": 5.42.0
     eslint: 8.42.0
