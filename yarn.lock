@@ -513,10 +513,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.1.0":
-  version: 20.1.0
-  resolution: "@types/node@npm:20.1.0"
-  checksum: 77173e89fe39867e5f5a2fe8771ae093d6cb81a077319d23090bd257113fb0b6ab327a56966d5d33609b57194ef79ae6fe884c83fc84af7f4915ed79273890a7
+"@types/node@npm:20.4.5":
+  version: 20.4.5
+  resolution: "@types/node@npm:20.4.5"
+  checksum: ed414b8fea1b462cb7444464e18cf0786a11def8b863bcca52b0466992d04f701422f9fc3c33e0601444bfdbf9e18d8f4b163d35902758495b51e635b09fee64
   languageName: node
   linkType: hard
 
@@ -2458,7 +2458,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "node-project@workspace:packages/node-project"
   dependencies:
-    "@types/node": 20.1.0
+    "@types/node": 20.4.5
     esbuild: 0.17.19
     js-lib: "workspace:*"
     tslib: 2.5.0
