@@ -2048,7 +2048,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "js-lib@workspace:packages/js-lib"
   dependencies:
-    tslib: 2.5.0
+    tslib: 2.6.1
     typescript: 5.1.6
   languageName: unknown
   linkType: soft
@@ -2461,7 +2461,7 @@ __metadata:
     "@types/node": 20.1.0
     esbuild: 0.17.19
     js-lib: "workspace:*"
-    tslib: 2.5.0
+    tslib: 2.6.1
     typescript: 5.1.6
   languageName: unknown
   linkType: soft
@@ -3237,10 +3237,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:2.5.0":
-  version: 2.5.0
-  resolution: "tslib@npm:2.5.0"
-  checksum: e32fc99cc730dd514e53c44e668d76016e738f0bcc726aad5dbd2d335cf19b87a95a9b1e4f0a9993e370f1d702b5e471cdd4acabcac428a3099d496b9af2021e
+"tslib@npm:2.6.1":
+  version: 2.6.1
+  resolution: "tslib@npm:2.6.1"
+  checksum: a0382d386f5f1d6e3a39ab22bc56d1e08493da99ab3daf550e63bae6c08fdd6dd4fd20623ef387cad8262ce3fede98439257054fc025f2103cd4603b4509a052
   languageName: node
   linkType: hard
 
@@ -3396,7 +3396,7 @@ __metadata:
   dependencies:
     "@types/web": 0.0.107
     js-lib: "workspace:*"
-    tslib: 2.5.0
+    tslib: 2.6.1
     typescript: 5.1.6
     vite: 4.3.9
   languageName: unknown
@@ -3487,7 +3487,7 @@ __metadata:
     prettier-package-json: 2.8.0
     prettier-plugin-organize-imports: 3.2.2
     prettier-plugin-sh: 0.12.8
-    tslib: 2.5.0
+    tslib: 2.6.1
     typescript: 5.1.6
   languageName: unknown
   linkType: soft
