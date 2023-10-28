@@ -14,7 +14,7 @@ module.exports = {
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
       ],
       parserOptions: {
-        project: ["packages/*/tsconfig.json"],
+        project: ["./tsconfig.json"],
       },
       rules: {
         "@typescript-eslint/no-explicit-any": [
@@ -33,5 +33,5 @@ module.exports = {
     "no-unused-expressions": "warn",
     quotes: "warn",
   },
-  ignorePatterns: ["build/", "output/"],
+  ignorePatterns: ["output/*"],
 };

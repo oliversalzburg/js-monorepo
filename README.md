@@ -4,7 +4,7 @@ _work in progress_
 
 ## Does
 
--   [Yarn 3](https://yarnpkg.com/)
+-   [Yarn](https://yarnpkg.com/)
 -   [Yarn Constraints](https://yarnpkg.com/features/constraints) to enforce some consistency in dependencies
 -   [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) documentation website with [node-scripts-docs](https://oliversalzburg.github.io/node-scripts-docs/), auto-deployed to GitHub Pages
 -   [EditorConfig](https://editorconfig.org/) + [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) + [lint-staged](https://github.com/okonet/lint-staged)

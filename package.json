@@ -3,6 +3,7 @@
   "name": "yarn3-monorepo",
   "license": "MIT",
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
+  "type": "module",
   "scripts": {
     "docs:scripts:build": "nsd --docs-location \"packages/documentation/docs/reference/Repository Scripts/\"",
     "docs:scripts:check": "nsd --docs-location \"packages/documentation/docs/reference/Repository Scripts/\" --check-only",
