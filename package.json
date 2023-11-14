@@ -8,7 +8,9 @@
   "scripts": {
     "docs:scripts:build": "nsd --docs-location \"packages/documentation/docs/reference/Repository Scripts/\"",
     "docs:scripts:check": "nsd --docs-location \"packages/documentation/docs/reference/Repository Scripts/\" --check-only",
-    "lint:eslint": "eslint packages/*/source",
+    "lint": "yarn run lint:all",
+    "lint:all": "yarn run lint:eslint && yarn run lint:prettier && yarn run lint:tsc",
+    "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check .",
     "lint:tsc": "tsc --noEmit"
   },

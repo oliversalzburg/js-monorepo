@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "extends": "./tsconfig.base.json",
+  "include": [
+    "@types",
+    "packages/documenation",
+    "packages/js-lib",
+    "packages/node-project",
+    "packages/web-project"
+  ]
+}

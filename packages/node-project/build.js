@@ -1,11 +1,13 @@
-const esbuild = require("esbuild");
+/* eslint-disable no-console */
+import esbuild from "esbuild";
 
 esbuild
   .build({
+    bundle: true,
     entryPoints: ["./source/main.ts"],
+    format: "esm",
     outfile: "./output/main.cjs",
     platform: "node",
-    target: "node16",
-    bundle: true,
+    target: "esnext",
   })
   .catch(console.error);
