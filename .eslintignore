@@ -3,3 +3,5 @@ _site/
 coverage/
 lib/
 node_modules/
+
+output

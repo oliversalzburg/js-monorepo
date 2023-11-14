@@ -1,13 +1,15 @@
 {
+  "$schema": "https://json.schemastore.org/package.json",
   "private": true,
   "name": "web-project",
   "license": "MIT",
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
+  "type": "module",
   "scripts": {
     "build": "vite build",
     "lint": "eslint source && tsc --noEmit",
-    "serve": "vite serve",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "serve": "vite serve"
   },
   "dependencies": {
     "js-lib": "workspace:*"

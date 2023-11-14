@@ -1,10 +1,12 @@
 {
+  "$schema": "https://json.schemastore.org/package.json",
   "private": true,
   "name": "node-project",
   "license": "MIT",
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
+  "type": "module",
   "scripts": {
-    "build": "node build.cjs",
+    "build": "node build.js",
     "lint": "eslint source && tsc --noEmit"
   },
   "dependencies": {

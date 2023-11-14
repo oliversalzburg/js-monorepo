@@ -31,10 +31,7 @@ jobs:
 
       # Build
       - name: Build
-        run: |
-          yarn workspace js-lib build
-          yarn workspace node-project build
-          yarn workspace web-project build
+        run: yarn build
 
       # Post-build QA
       - name: Lint ESLint
