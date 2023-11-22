@@ -2,7 +2,7 @@
 export default {
   printWidth: 100,
   arrowParens: "avoid",
-  plugins: ["prettier-plugin-organize-imports"],
+  plugins: ["prettier-plugin-organize-imports", "prettier-plugin-sh"],
   overrides: [
     {
       files: "*.md",
