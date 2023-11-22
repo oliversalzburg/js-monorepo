@@ -13,21 +13,12 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences:
-      custom_fences:
-        - name: blockdiag
-          class: blockdiag
-          format: !!python/name:blockdiag_fences.blockdiag.fence_img_format
-        - name: seqdiag
-          class: seqdiag
-          format: !!python/name:blockdiag_fences.blockdiag.fence_img_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tilde
   - toc:
       permalink: true
 plugins:
-  - git-revision-date-localized:
-      fallback_to_build_date: true
   - search
 repo_name: oliversalzburg/yarn3-monorepo
 repo_url: https://github.com/oliversalzburg/yarn3-monorepo
