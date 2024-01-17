@@ -3,13 +3,13 @@
   "files": [],
   "references": [
     {
-      "path": "packages/js-lib"
+      "path": "packages/js-lib",
     },
     {
-      "path": "packages/node-project"
+      "path": "packages/node-project",
     },
     {
-      "path": "packages/web-project"
-    }
-  ]
+      "path": "packages/web-project",
+    },
+  ],
 }
