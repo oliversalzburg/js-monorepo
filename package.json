@@ -24,7 +24,7 @@
     "@typescript-eslint/eslint-plugin": "6.20.0",
     "@typescript-eslint/parser": "6.20.0",
     "eslint": "8.56.0",
-    "lint-staged": "15.2.0",
+    "lint-staged": "15.2.1",
     "node-scripts-docs": "1.0.1",
     "prettier": "3.2.4",
     "prettier-package-json": "2.8.0",
