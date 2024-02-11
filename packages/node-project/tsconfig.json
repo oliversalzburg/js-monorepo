@@ -3,8 +3,8 @@
   "compilerOptions": {
     "outDir": "output",
     "rootDir": "source",
-    "types": ["@types/node"],
+    "types": ["@types/node"]
   },
   "include": ["../../@types", "source"],
-  "references": [],
+  "references": []
 }

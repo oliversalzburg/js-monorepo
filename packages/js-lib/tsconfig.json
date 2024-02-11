@@ -6,8 +6,8 @@
     "declarationMap": true,
     "isolatedModules": true,
     "outDir": "output",
-    "rootDir": "source",
+    "rootDir": "source"
   },
   "include": ["../../@types", "source"],
-  "references": [],
+  "references": []
 }
