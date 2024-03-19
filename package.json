@@ -21,8 +21,8 @@
   "devDependencies": {
     "@types/eslint": "8.56.5",
     "@types/web": "0.0.142",
-    "@typescript-eslint/eslint-plugin": "7.3.0",
-    "@typescript-eslint/parser": "7.3.0",
+    "@typescript-eslint/eslint-plugin": "7.3.1",
+    "@typescript-eslint/parser": "7.3.1",
     "eslint": "8.57.0",
     "lint-staged": "15.2.2",
     "node-scripts-docs": "1.0.1",
