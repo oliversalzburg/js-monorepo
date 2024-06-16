@@ -10,7 +10,7 @@
     "build": "tsc",
     "lint": "eslint source && tsc --noEmit"
   },
-  "types": "./typings/index.d.ts",
+  "types": "./output/index.d.ts",
   "devDependencies": {
     "tslib": "2.6.3",
     "typescript": "5.4.5"
