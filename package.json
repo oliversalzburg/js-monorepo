@@ -22,7 +22,7 @@
   "devDependencies": {
     "@eslint/js": "9.4.0",
     "@types/eslint": "8.56.10",
-    "@types/web": "0.0.148",
+    "@types/web": "0.0.149",
     "eslint": "9.4.0",
     "eslint-config-prettier": "9.1.0",
     "lint-staged": "15.2.5",

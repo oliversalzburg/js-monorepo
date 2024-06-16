@@ -512,13 +512,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/web@npm:0.0.148":
-  version: 0.0.148
-  resolution: "@types/web@npm:0.0.148"
-  checksum: 10c0/d915b5d707ff3a50b767cefd2463b9d31c0337f04b1ec874d01dca3702e4b3a848077e19c01b472db20491619604ae11240f5b2b1b007026321633084d2976fb
-  languageName: node
-  linkType: hard
-
 "@types/web@npm:0.0.149":
   version: 0.0.149
   resolution: "@types/web@npm:0.0.149"
@@ -3227,7 +3220,7 @@ __metadata:
   dependencies:
     "@eslint/js": "npm:9.4.0"
     "@types/eslint": "npm:8.56.10"
-    "@types/web": "npm:0.0.148"
+    "@types/web": "npm:0.0.149"
     eslint: "npm:9.4.0"
     eslint-config-prettier: "npm:9.1.0"
     lint-staged: "npm:15.2.5"
