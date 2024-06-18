@@ -1,12 +1,14 @@
+import { redirectErrorsToConsole } from "@oliversalzburg/js-utils";
 import esbuild from "esbuild";
 
 esbuild
   .build({
     bundle: true,
     entryPoints: ["./source/main.ts"],
+    external: ["os"],
     format: "esm",
-    outfile: "./output/main.cjs",
+    outfile: "./output/main.js",
     platform: "node",
-    target: "esnext",
+    target: "node20",
   })
-  .catch(console.error);
+  .catch(redirectErrorsToConsole(console));
