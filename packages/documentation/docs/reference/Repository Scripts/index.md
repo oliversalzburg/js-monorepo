@@ -6,7 +6,7 @@
 -   Source:
 
     ```shell
-    snowpack build
+    yarn workspaces foreach --worktree run build
     ```
 
 -   Description:
@@ -20,6 +20,19 @@
 
     ```shell
     .scripts/build.sh
+    ```
+
+-   Description:
+
+    _documentation pending_
+
+## docs:publish
+
+-   Project: `documentation`
+-   Source:
+
+    ```shell
+    .scripts/publish.sh
     ```
 
 -   Description:
@@ -65,13 +78,52 @@
 
     _documentation pending_
 
+## lint
+
+-   Project: `yarn3-monorepo`
+-   Source:
+
+    ```shell
+    yarn run lint:all
+    ```
+
+-   Description:
+
+    _documentation pending_
+
+## lint:all
+
+-   Project: `yarn3-monorepo`
+-   Source:
+
+    ```shell
+    yarn run lint:eslint && yarn run lint:prettier && yarn run lint:tsc
+    ```
+
+-   Description:
+
+    _documentation pending_
+
 ## lint:eslint
 
 -   Project: `yarn3-monorepo`
 -   Source:
 
     ```shell
-    eslint source
+    eslint .
+    ```
+
+-   Description:
+
+    _documentation pending_
+
+## lint:prettier
+
+-   Project: `yarn3-monorepo`
+-   Source:
+
+    ```shell
+    prettier --check .
     ```
 
 -   Description:
@@ -91,13 +143,13 @@
 
     _documentation pending_
 
-## serve
+## test
 
 -   Project: `yarn3-monorepo`
 -   Source:
 
     ```shell
-    snowpack dev
+    echo this project has no tests.
     ```
 
 -   Description:
