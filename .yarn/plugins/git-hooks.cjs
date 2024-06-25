@@ -17,7 +17,7 @@ module.exports = {
 
         const hookFile = `#!/bin/sh
 echo "Running lint-staged..."
-yarn lint-staged
+yarn lint-staged --allow-empty
 `;
         const hookFilename = path.resolve(hooksDirectory, "pre-commit");
         await fs.writeFile(hookFilename, hookFile, "utf-8");
