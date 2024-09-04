@@ -13,7 +13,7 @@
     "js-lib": "workspace:*"
   },
   "devDependencies": {
-    "@types/node": "20.16.3",
+    "@types/node": "20.16.4",
     "esbuild": "0.23.1",
     "tslib": "2.7.0",
     "typescript": "5.5.4"
