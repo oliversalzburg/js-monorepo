@@ -7,6 +7,7 @@
   "type": "module",
   "scripts": {
     "build": "yarn workspaces foreach --worktree run build",
+    "clean:all": "yarn workspaces foreach --worktree run clean",
     "docs:scripts:build": "nsd --docs-location \"packages/documentation/docs/reference/Repository Scripts/\"",
     "docs:scripts:check": "nsd --docs-location \"packages/documentation/docs/reference/Repository Scripts/\" --check-only",
     "lint": "yarn run lint:all",

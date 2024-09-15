@@ -1,4 +1,4 @@
-import { redirectErrorsToConsole } from "@oliversalzburg/js-utils/error/console.js";
+import { redirectErrorsToConsole } from "@oliversalzburg/js-utils/errors/console.js";
 import esbuild from "esbuild";
 
 esbuild
@@ -9,6 +9,6 @@ esbuild
     format: "esm",
     outfile: "./output/main.js",
     platform: "node",
-    target: "node20",
+    target: "node22",
   })
   .catch(redirectErrorsToConsole(console));

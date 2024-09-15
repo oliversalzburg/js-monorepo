@@ -8,6 +8,7 @@
   "main": "./output/index.js",
   "scripts": {
     "build": "tsc",
+    "clean": "rm -rf output tsconfig.tsbuildinfo",
     "lint": "eslint source && tsc --noEmit"
   },
   "types": "./output/index.d.ts",

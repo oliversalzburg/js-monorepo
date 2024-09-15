@@ -7,6 +7,7 @@
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
   "main": "Dockerfile",
   "scripts": {
+    "clean": "rm -rf public",
     "docs:build": ".scripts/build.sh",
     "docs:publish": ".scripts/publish.sh",
     "docs:serve": ".scripts/serve.sh"

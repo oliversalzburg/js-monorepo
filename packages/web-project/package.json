@@ -7,6 +7,7 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
+    "clean": "rm -rf output tsconfig.tsbuildinfo",
     "lint": "eslint source && tsc --noEmit",
     "preview": "vite preview",
     "serve": "vite serve"

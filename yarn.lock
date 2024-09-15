@@ -560,6 +560,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@oliversalzburg/js-utils@npm:0.1.1":
+  version: 0.1.1
+  resolution: "@oliversalzburg/js-utils@npm:0.1.1"
+  checksum: 10c0/e007d0f60d614510c07fd8a7eb6da6a924bb75643a03a257e86a75799c40978cc33cd9f32b4f284962f2c7ca00b469aebb519ed5459f0d43086e673c6b8b4441
+  languageName: node
+  linkType: hard
+
 "@pkgjs/parseargs@npm:^0.11.0":
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
@@ -2655,6 +2662,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "node-project@workspace:packages/node-project"
   dependencies:
+    "@oliversalzburg/js-utils": "npm:0.1.1"
     "@types/node": "npm:20.16.5"
     esbuild: "npm:0.23.1"
     js-lib: "workspace:*"
