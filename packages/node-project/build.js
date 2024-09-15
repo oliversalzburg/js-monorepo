@@ -1,4 +1,4 @@
-import { redirectErrorsToConsole } from "@oliversalzburg/js-utils";
+import { redirectErrorsToConsole } from "@oliversalzburg/js-utils/error/console.js";
 import esbuild from "esbuild";
 
 esbuild
