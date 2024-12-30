@@ -2,156 +2,156 @@
 
 ## build
 
-- Project: `yarn3-monorepo`
-- Source:
+-   Project: `yarn3-monorepo`
+-   Source:
 
     ```shell
     yarn workspaces foreach --worktree run build
     ```
 
-- Description:
+-   Description:
 
     _documentation pending_
 
 ## docs:build
 
-- Project: `documentation`
-- Source:
+-   Project: `documentation`
+-   Source:
 
     ```shell
     .scripts/build.sh
     ```
 
-- Description:
+-   Description:
 
     _documentation pending_
 
 ## docs:publish
 
-- Project: `documentation`
-- Source:
+-   Project: `documentation`
+-   Source:
 
     ```shell
     .scripts/publish.sh
     ```
 
-- Description:
+-   Description:
 
     _documentation pending_
 
 ## docs:scripts:build
 
-- Project: `yarn3-monorepo`
-- Source:
+-   Project: `yarn3-monorepo`
+-   Source:
 
     ```shell
     nsd --docs-location "packages/documentation/docs/reference/Repository Scripts/"
     ```
 
-- Description:
+-   Description:
 
     _documentation pending_
 
 ## docs:scripts:check
 
-- Project: `yarn3-monorepo`
-- Source:
+-   Project: `yarn3-monorepo`
+-   Source:
 
     ```shell
     nsd --docs-location "packages/documentation/docs/reference/Repository Scripts/" --check-only
     ```
 
-- Description:
+-   Description:
 
     _documentation pending_
 
 ## docs:serve
 
-- Project: `documentation`
-- Source:
+-   Project: `documentation`
+-   Source:
 
     ```shell
     .scripts/serve.sh
     ```
 
-- Description:
+-   Description:
 
     _documentation pending_
 
 ## lint
 
-- Project: `yarn3-monorepo`
-- Source:
+-   Project: `yarn3-monorepo`
+-   Source:
 
     ```shell
     yarn run lint:all
     ```
 
-- Description:
+-   Description:
 
     _documentation pending_
 
 ## lint:all
 
-- Project: `yarn3-monorepo`
-- Source:
+-   Project: `yarn3-monorepo`
+-   Source:
 
     ```shell
     yarn run lint:eslint && yarn run lint:prettier && yarn run lint:tsc
     ```
 
-- Description:
+-   Description:
 
     _documentation pending_
 
 ## lint:eslint
 
-- Project: `yarn3-monorepo`
-- Source:
+-   Project: `yarn3-monorepo`
+-   Source:
 
     ```shell
     eslint .
     ```
 
-- Description:
+-   Description:
 
     _documentation pending_
 
 ## lint:prettier
 
-- Project: `yarn3-monorepo`
-- Source:
+-   Project: `yarn3-monorepo`
+-   Source:
 
     ```shell
     prettier --check .
     ```
 
-- Description:
+-   Description:
 
     _documentation pending_
 
 ## lint:tsc
 
-- Project: `yarn3-monorepo`
-- Source:
+-   Project: `yarn3-monorepo`
+-   Source:
 
     ```shell
     tsc --noEmit
     ```
 
-- Description:
+-   Description:
 
     _documentation pending_
 
 ## test
 
-- Project: `yarn3-monorepo`
-- Source:
+-   Project: `yarn3-monorepo`
+-   Source:
 
     ```shell
     echo this project has no tests.
     ```
 
-- Description:
+-   Description:
 
     _documentation pending_
