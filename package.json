@@ -37,7 +37,7 @@
     "eslint-plugin-tsdoc": "0.4.0",
     "globals": "15.14.0",
     "lint-staged": "15.3.0",
-    "node-scripts-docs": "1.0.4",
+    "node-scripts-docs": "2.0.0",
     "prettier": "3.4.2",
     "prettier-package-json": "2.8.0",
     "prettier-plugin-organize-imports": "4.1.0",
