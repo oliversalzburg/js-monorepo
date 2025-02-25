@@ -1,5 +1,8 @@
 # Project Template
 
+> [!CAUTION]
+> I haven't created a JS monorepo in a long time. There is no need to continue maintaining this project. Thus, it has been **archived as of 2025-02-25**.
+
 A monorepo built with modern Yarn.
 
 ## Does
